@@ -206,4 +206,38 @@ body {
     background-color: #ff8c42;
     transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
 }
+/* End of NavBAr */
+
+/*Main Content Begins below*/
+.sect1 {
+    width: 100%;
+    height: 100vh;
+    border: 40px solid #fff5f5;
+}
+
+.sect1cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/bgone.jpg);
+    background-size: 100% 100%;
+    border-radius: 30px;
+    height: 100%;
+    width: 100%;
+}
+
+.sect1cont::before {
+    content: "";
+    position: relative;
+    top: auto;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.278);
+    border-radius: 30px;
+}
+
+.sect1text {
+    position: absolute;
+}
 
