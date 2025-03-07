@@ -12,3 +12,4 @@ window.addEventListener("scroll", function() {
         theNav.style.position = "relative";
     }
 });
+
