@@ -356,7 +356,7 @@ body {
 }
 
 .sect2text h3 {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     color: #f4a261;
     margin-bottom: 10px;
@@ -405,16 +405,6 @@ body {
     border-bottom-right-radius: 10px;
 }
 
-.anihold {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    background: #fff5f5;
-    top: 420px;
-    right: 90px;
-    position: absolute;
-}
-
 
 
 
@@ -444,7 +434,7 @@ body {
 }
 
 .sect3text h3 {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     color: #f4a261;
     margin-bottom: 10px;
@@ -492,4 +482,3 @@ body {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-
