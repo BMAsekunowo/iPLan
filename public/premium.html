@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPlan Subscription</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(180deg, rgba(230, 57, 70, 0.15), #FFF5F5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 40px;
+        }
+
+        .card {
+            overflow: hidden;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            padding: 1.5rem;
+            width: 18rem;
+            height: auto;
+            background-color: #E63946;
+            background-image: radial-gradient(circle at 0% 0%, rgba(255, 255, 255, 0.1) 20%, rgba(0, 0, 0, 0) 70%),
+                              linear-gradient(135deg, rgba(230, 57, 70, 1) 40%, rgba(200, 50, 60, 1) 100%);
+            border-radius: 12px;
+            color: white;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+        }
+
+        .card::before {
+            content: "";
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            width: 2rem;
+            height: 2rem;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+        }
+
+        .title {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        .pricing {
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+
+        .pricing-time {
+            font-size: 0.9rem;
+            color: #FFD166;
+        }
+
+        .sub-title {
+            font-size: 0.9rem;
+            margin-top: 10px;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            font-size: 0.9rem;
+            list-style: none;
+            margin-top: 10px;
+        }
+
+        .list-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .check {
+            margin-right: 0.5rem;
+            font-size: 1rem;
+            color: #FFD166;
+        }
+
+        .button {
+            margin-top: 15px;
+            padding: 0.7rem;
+            width: 100%;
+            background-color: #FFD166;
+            font-size: 0.9rem;
+            color: #E63946;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background 0.3s ease-in-out;
+        }
+
+        .button:hover {
+            background-color: #FFB833;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <span class="title">Premium Plan</span>
+        <p class="pricing">$2.99 <span class="pricing-time">/ month</span></p>
+        <span class="sub-title">Unlock full potential with:</span>
+        <ul class="list">
+            <li class="list-item"><span class="check">✓</span> Smart Scheduling</li>
+            <li class="list-item"><span class="check">✓</span> Personal Finance Tracker</li>
+            <li class="list-item"><span class="check">✓</span> Priority Support</li>
+            <li class="list-item"><span class="check">✓</span> Advanced Reminders</li>
+            <li class="list-item"><span class="check">✓</span> Unlimited Task Categories</li>
+        </ul>
+        <button class="button">Get Premium</button>
+    </div>
+</body>
+</html>
