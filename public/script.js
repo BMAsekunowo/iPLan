@@ -16,9 +16,13 @@ window.addEventListener("scroll", function() {
 
 const respNav = document.getElementById('menuicon');
 const displayNav = document.getElementById('navul');
+const undisplayNav =document.getElementById('nav-header')
 
 
 respNav.addEventListener("click", function(){
-        alert('I am working, Trust me')
-        displayNav.style.display = "block";
+        displayNav.style.display = "flex";
+});
+
+undisplayNav.addEventListener("click", function(){
+    displayNav.style.display = "none";
 });

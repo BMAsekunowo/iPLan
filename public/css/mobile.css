@@ -34,23 +34,37 @@
     }
 
     .navul {
-        /* position: absolute; */
+        position: absolute;
         top: 0;
         left: 0;
         display: none;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
         width: 100%;
         height: 100vh;
-        background: #fff5f5;
+        background: #FFF5F5;
         z-index: 1000;
     }
 
-    .navlink {
+    .navlink2 {
         display: flex;
         flex-direction: column;
-        gap: 40px;
+        gap: 30px;
         align-items: center;
-        margin-left: 12%;
+    }
+
+    .nav-header {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 30px;
+        color: #2D2D2D;
+    }
+
+    .nav-header:hover {
+        color: #E63946
     }
 
     
