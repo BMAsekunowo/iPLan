@@ -16,6 +16,11 @@ body {
     background-color: #fff5f5;
 }
 
+.maincointainer {
+    width: 100%;
+    height: auto;
+}
+
 /* LOGO DESIGN */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 .navbar {
@@ -224,7 +229,7 @@ body {
 
 /*Main Content Begins below*/
 .sect1 {
-    margin-top: -220px;
+    margin-top: -200px;
     display: flex;
     width: 100%;
     height: 120vh;
@@ -278,15 +283,6 @@ body {
     margin-bottom: 30px;
 }
 
-/* .clip1 {
-    width: 300px;
-    height: 150px;
-    position: absolute;
-    border-radius: 10px;
-    top: 200px;
-    right: 120px;
-} */
-
 .vid1 {
     width: 300px;
     height: 180px;
@@ -311,31 +307,6 @@ body {
     position: absolute;
 }
 
-/* .sect1cont {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../images/bgone.jpg);
-    background-size: 100% 100%;
-    border-radius: 30px;
-    height: 100%;
-    width: 100%;
-}
-
-.sect1::before {
-    content: "";
-    position: relative;
-    top: auto;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.278);
-    border-radius: 30px;
-} */
-
-/* .sect1text {
-    position: absolute;
-} */
 
 .sect2 {
     display: flex;
