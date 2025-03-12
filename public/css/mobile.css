@@ -371,6 +371,185 @@
         border-bottom-right-radius: 10px;
     }
     
+    .sect6 {
+        display: flex;
+        width: 100%;
+        height: 450vh;
+        border: 10px solid #fff5f5;
+        position: relative;
+    }
     
+    .sect6wrap {
+        border-radius: 50px;
+        height: 100%;
+        width: 100%;
+        position: relative;
+        background: #fff5f5;
+        box-shadow: 0px -3px 0px 0px #f4a261;
+    }
+    
+    .sect6wrap h2 {
+        margin-top: 200px;
+        font-size: 20px;
+        color: #E63946;
+        text-align: center;
+    }
+    
+    .sect6wrap p {
+        /* margin-top: 200px; */
+        font-size: 14px;
+        color: #2d2d2d;
+        text-align: center;
+    }
+    
+    .testimgwrap {
+        width: 100%;
+        margin: -70px 0%;
+        height: 550px;
+        border-radius: 20px;
+        background: #f4a261;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: perspective(1000px) rotateX(15deg);
+        transform-origin: center bottom; 
+        box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+    }
+    
+    .testimage {
+        width: 98%;
+        height: 530px;
+        border-radius: 20px;
+        transform: perspective(1000px) rotateX(10deg); 
+        transform-origin: center bottom; 
+    }
+    
+    .modes {
+        margin-top: 200px;
+        width: 100%;
+        height: 800px;
+        border-radius: 20px;
+        background: #fff5f5;
+    }
+    
+    .modeswrap {
+        margin: -40px 10% 40px;
+        padding: 40px 20px;
+        width: 80%;
+        height: 600px;
+        border-radius: 20px;
+        transform: perspective(1000px) rotateX(15deg);
+        transform-origin: center bottom; 
+        box-shadow: var(--soft-shadow);
+    }
+    
+    .opthold {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 10%;
+        width: 80%;
+        height: 60px;
+        gap: 10px;
+    }
+    
+    .opthold a {
+        width: auto;
+        height: 50px;
+        padding: 10px 20px;
+        text-decoration: none;
+        background: transparent;
+        border: 1px solid #E63946;
+        color: #2d2d2d;
+        border-radius: 800px;
+        gap: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .opthold a:hover{
+        background: #e6394752;
+        color: #E63946;
+    }
+    
+    .prevhold{
+        margin-top: 10px;
+        width: 100%;
+        height: 90%;
+        border-radius: 10px;
+        display:flex;
+    }
+    
+    .imghold {
+        width: 60%;
+        height: 100%;
+        background: #f4a261;
+    }
+    
+    .texthold {
+        width: 40%;
+        height: 100%;
+        background: #E63946;
+    }
+    
+    
+    .journal {
+        margin-top: -50px;
+        width: 100%;
+        height: 800px;
+        border-radius: 20px;
+        background: #fff5f5;
+    }
+    
+    .journalwrap {
+        margin: -40px 20% -40px;
+        padding: 10px;
+        width: 60%;
+        height: 450px;
+        border-radius: 20px;
+        transform: perspective(1000px) rotateX(15deg);
+        transform-origin: center bottom; 
+        background: #f4a261;
+        box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+    }
+    
+    .journalvid {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        transform: perspective(1000px) rotateX(15deg);
+        transform-origin: center bottom; 
+        background: #f4a261;
+    }
+    
+    .track {
+        margin-top: -350px;
+        width: 100%;
+        height: 700px;
+        border-radius: 20px;
+        background: #fff5f5;
+    }
+    
+    .trimghold {
+        margin: -40px 20% -40px;
+        padding: 10px;
+        width: 60%;
+        height: 450px;
+        border-radius: 20px;
+        transform: perspective(1000px) rotateX(15deg);
+        transform-origin: center bottom; 
+        background: #f4a261;
+        box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+    }
+    
+    .trackimg {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        transform: perspective(1000px) rotateX(15deg);
+        transform-origin: center bottom; 
+        background: #f4a261;
+    }
     
 }
