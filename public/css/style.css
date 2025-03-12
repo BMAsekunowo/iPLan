@@ -32,6 +32,10 @@ body {
     transition: background .3s ease-in-out;
 }
 
+.navbar2 {
+    display: none;
+}
+
 .logo-container {
     display: flex;
     width: 140px;
