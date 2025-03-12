@@ -14,3 +14,11 @@ window.addEventListener("scroll", function() {
 });
 
 
+const respNav = document.getElementById('menuicon');
+const displayNav = document.getElementById('navul');
+
+
+respNav.addEventListener("click", function(){
+        alert('I am working, Trust me')
+        displayNav.style.display = "block";
+});
