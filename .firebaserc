@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "iplanb"
-  }
+    "default": "iplanb",
+    "iPLan": "iplanb"
+  },
+  "targets": {},
+  "etags": {}
 }
