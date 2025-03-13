@@ -1,0 +1,58 @@
+[debug] [2025-03-13T11:46:30.202Z] ----------------------------------------------------------------------
+[debug] [2025-03-13T11:46:30.203Z] Command:       /usr/local/bin/node /Users/Shakescodes/.npm-global/bin/firebase init
+[debug] [2025-03-13T11:46:30.203Z] CLI Version:   13.31.2
+[debug] [2025-03-13T11:46:30.203Z] Platform:      darwin
+[debug] [2025-03-13T11:46:30.203Z] Node Version:  v22.13.1
+[debug] [2025-03-13T11:46:30.203Z] Time:          Thu Mar 13 2025 12:46:30 GMT+0100 (West Africa Standard Time)
+[debug] [2025-03-13T11:46:30.203Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-03-13T11:46:30.272Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-03-13T11:46:30.273Z] > authorizing via signed-in user (bm.asekunowo@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/Shakescodes/Desktop/Desk/Firebase/iPLan
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-03-13T11:46:38.210Z] Using project from CLI flag: iplanb
+[debug] [2025-03-13T11:46:38.211Z] Checked if tokens are valid: false, expires at: 1741800321847
+[debug] [2025-03-13T11:46:38.211Z] Checked if tokens are valid: false, expires at: 1741800321847
+[debug] [2025-03-13T11:46:38.212Z] > refreshing access token with scopes: []
+[debug] [2025-03-13T11:46:38.213Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-03-13T11:46:38.214Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-03-13T11:46:38.787Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2025-03-13T11:46:38.787Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-03-13T11:46:38.787Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/iplanb [none]
+[debug] [2025-03-13T11:46:39.228Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/iplanb 401
+[debug] [2025-03-13T11:46:39.228Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/iplanb {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED"}}
+[debug] [2025-03-13T11:46:39.228Z] Got a 401 Unauthenticated error for a call that required authentication. Refreshing tokens.
+[debug] [2025-03-13T11:46:39.228Z] Checked if tokens are valid: false, expires at: 1741800321847
+[debug] [2025-03-13T11:46:39.228Z] Checked if tokens are valid: false, expires at: 1741800321847
+[debug] [2025-03-13T11:46:39.228Z] > refreshing access token with scopes: []
+[debug] [2025-03-13T11:46:39.229Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-03-13T11:46:39.229Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-03-13T11:46:39.410Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2025-03-13T11:46:39.410Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-03-13T11:46:39.411Z] Request to https://firebase.googleapis.com/v1beta1/projects/iplanb had HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2025-03-13T11:46:39.413Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/iplanb had HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (/Users/Shakescodes/.npm-global/lib/node_modules/firebase-tools/lib/responseToError.js:52:12)
+    at RetryOperation._fn (/Users/Shakescodes/.npm-global/lib/node_modules/firebase-tools/lib/apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to get Firebase project iplanb. Please make sure the project exists and your account has permission to access it.
